@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    border: 5px solid rgb(158, 158, 158);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.clock {
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffffff85;
+}
+
+#hour, #minute, #second {
+    display: inline-block;
+    width: 75px;
+    text-align: center;
+}
+.CONTAINER{
+    border: 30px solid blue;
+    background-color: rgb(0, 0, 0);
+transition: 1s; /*determina o tempo de transição para volta do estado normal*/
+    font-size: 40px;
+    cursor:pointer;
+}
+
+.container:hover { /*estilos que são adicionados ao passar o cursor no elemento*/
+border: 4px solid rgb(0, 0, 0);
+background-color: grey;
+transition: 1s;  /*determina o tempo de transição para aplicação dos estilos*/
+
+}
+h2{
+    top: 30%;
+    position: absolute;
+    
+}
